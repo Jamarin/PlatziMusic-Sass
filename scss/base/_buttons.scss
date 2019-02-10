@@ -1,0 +1,11 @@
+/*--------------------------------*\
+    $BUTTONS
+\*--------------------------------*/
+
+.btn {
+    background-color: $button-background-color;
+    border-radius: $border-radius;
+    color: $button-color;
+    display: inline-block;
+    line-height: 2.5;
+}
