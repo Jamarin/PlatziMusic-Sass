@@ -7,5 +7,14 @@
     border-radius: $border-radius;
     color: $button-color;
     display: inline-block;
+    font-size: $button-font-size;
     line-height: 2.5;
+
+    &__icon {
+        font-size: .6em;
+    }
+
+    &--info {
+        background-color: $color-info;
+    }
 }

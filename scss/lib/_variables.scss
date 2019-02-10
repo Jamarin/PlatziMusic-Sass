@@ -37,9 +37,12 @@ $font-size-base: 16px;
 
 $button-color: $color-white;
 $button-background-color: $color-brand;
+$button-font-size: $font-size-base * 1.5;
 
 /*
 * Constants
 */
 
 $border-radius: 3px;
+$padding: 24px;
+$page-max-width: 800px;

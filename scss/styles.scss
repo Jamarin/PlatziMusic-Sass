@@ -1,5 +1,7 @@
 // Librerías, Settings y Variables
+    //Always first lib
 @import './lib/variables';
+@import './lib/mixins';
 
 // Elementos base
 @import './base/buttons';
@@ -9,5 +11,8 @@
 // Componentes
 @import './components/grids';
 
-//Always last component
+    //Always last component
 @import './components/utilities';
+
+// Layouts
+@import './layout/layout';
